@@ -166,8 +166,8 @@ else:
         # Show the map in Streamlit
         st.plotly_chart(fig)
 
-        # Create a two-column layout for the map and coordinates (if needed)
-        col1, col2 = st.columns(2)
+    # Create a two-column layout for the map and coordinates (if needed)
+    col1, col2 = st.columns(2)
 
 # 3. Humidity vs Temperature
     with col1:
