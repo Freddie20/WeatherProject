@@ -5,7 +5,7 @@
 
 ## 📖 Project Overview
 
-This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, showing real-time weather conditions along with a 5-day forecast using interactive visualizations. The dashboard is built with **Streamlit** for easy web deployment and **Plotly** for interactive charts, allowing users to explore weather trends like temperature, humidity, wind speed, and more.
+This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, showing real-time weather conditions and a 5-day forecast using interactive visualizations. The dashboard is built with **Streamlit** for easy web deployment and **Plotly** for interactive charts, allowing users to explore weather trends like temperature, humidity, wind speed, and more.
 
 ## 🛠 Features
 
@@ -14,7 +14,7 @@ This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, 
 - **Interactive Charts**: Visualizations using Plotly to showcase trends in temperature, precipitation, wind speed, and other metrics.
 - **Geospatial Data**: Map showing the location of Ibadan, Nigeria, with latitude and longitude information.
 - **Responsive Dashboard**: Optimized for both desktop and mobile viewing.
-- **Icons and Visual Enhancements**: Weather-related icons and color themes for better user experience.
+- **Icons and Visual Enhancements**: Weather-related icons and colour themes for better user experience.
 
 ## 🚀 Technology Stack
 
@@ -38,13 +38,14 @@ This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, 
 	•	Precipitation Probability: Bar chart showing the chance of precipitation for the next five days.
 	•	Wind Speed and Pressure: Bar and line chart to visualize wind speed and atmospheric pressure.
 	•	Temperature Range: Area chart showing the range of daily minimum and maximum temperatures.
-	•	Weather Heatmap: Heatmap visualizing correlations between different weather metrics like temperature, humidity, and wind speed.
+	•	Weather Heatmap: Heatmap visualizing correlations between weather metrics like temperature, humidity, and wind speed.
 
     📁 Project Structure
 
 ├── data
-│   └── transformed_weather_data.csv
-├── weather_app.py                # Main Streamlit app file
+│└── transformed_weather_data.csv
+├
+├── weather_app.py   # Main Streamlit app file
 ├── requirements.txt              # Python dependencies
 ├── .env                          # API key configuration (not included in the repo)
 └── README.md                     # Project documentation
