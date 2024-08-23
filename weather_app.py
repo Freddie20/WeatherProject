@@ -135,15 +135,12 @@ else:
     unsafe_allow_html=True
 )
         # Get the Mapbox token from the environment
-        api_key = os.getenv("MAPBOXAPI_KEY")
+        api_key = os.getenv("MAPBOXAPI_KEY") or st.secrets["MAPBOXAPI_KEY"]
 
         if api_key is None:
             st.error("Mapbox API key is not available")
         else:
             st.success("Mapbox API key is available")
-
-    # Define the API URL
-        mapbox_token = api_key  # <--- Replace with your Mapbox token
 
         # Create a scatter mapbox for Ibadan
         fig = go.Figure(go.Scattermapbox(
@@ -157,20 +154,20 @@ else:
         # Set the mapbox style and initial zoom
         fig.update_layout(
             mapbox=dict(
-                style="stamen-terrain",  # You can switch to 'open-street-map' or others
+                style="streets",  # Change this to Mapbox-specific style like 'streets', 'satellite'
                 center=dict(lat=ibadan_lat, lon=ibadan_lon),
                 zoom=10,
-                accesstoken=mapbox_token  # <--- Set your Mapbox token here
+                accesstoken=api_key  # Use the Mapbox token here
             ),
             height=400,
             margin={"r":0,"t":0,"l":0,"b":0}
         )
-        
+
         # Show the map in Streamlit
         st.plotly_chart(fig)
 
-    # Create a two-column layout for the 
-    col1, col2 = st.columns(2)
+        # Create a two-column layout for the map and coordinates (if needed)
+        col1, col2 = st.columns(2)
 
 # 3. Humidity vs Temperature
     with col1:
