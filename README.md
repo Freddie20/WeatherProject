@@ -1,7 +1,7 @@
 # WeatherProject
 # 🌤️ Ibadan, Nigeria Weather Forecast Dashboard
 
-![Weather Dashboard](https://ibadanweather.streamlit.app/)
+![Weather Dashboard](https://learndataengineering.hashnode.dev/)
 
 ## 📖 Project Overview
 
@@ -22,6 +22,7 @@ This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, 
 - **Charts**: [Plotly](https://plotly.com/)
 - **Data Processing**: [Pandas](https://pandas.pydata.org/), [PySpark](https://spark.apache.org/)
 - **API Integration**: [OpenWeatherMap API](https://openweathermap.org/)
+- **API Integration**: [MapBOX API](https://mapbox.com/)
 
 ## ⚙️ Setup Instructions
 
@@ -40,7 +41,9 @@ This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, 
 	•	Temperature Range: Area chart showing the range of daily minimum and maximum temperatures.
 	•	Weather Heatmap: Heatmap visualizing correlations between weather metrics like temperature, humidity, and wind speed.
 
-```## 📁 Project Structure
+## 📁 Project Structure
+
+```
 
 ├── data
 │   └── transformed_weather_data.csv
@@ -52,5 +55,5 @@ This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, 
 
 🙌 Acknowledgments
 
-	•	OpenWeatherMap for providing weather data.
+	•	OpenWeatherMap and MapBOX for providing weather data and Map.
 	•	Streamlit and Plotly for easy data visualization and interactivity.
