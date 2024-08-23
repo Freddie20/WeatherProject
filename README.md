@@ -1,7 +1,7 @@
 # WeatherProject
 # 🌤️ Ibadan, Nigeria Weather Forecast Dashboard
 
-![Weather Dashboard](https://learndataengineering.hashnode.dev/)
+![Weather Dashboard](dash_screenshot.png/)
 
 ## 📖 Project Overview
 
