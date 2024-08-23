@@ -137,6 +137,11 @@ else:
         # Get the Mapbox token from the environment
         api_key = os.getenv("MAPBOXAPI_KEY")
 
+        if api_key is None:
+            st.error("Mapbox API key is not available")
+        else:
+            st.success("Mapbox API key is available")
+
     # Define the API URL
         mapbox_token = api_key  # <--- Replace with your Mapbox token
 
