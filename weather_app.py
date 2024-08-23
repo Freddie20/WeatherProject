@@ -533,8 +533,8 @@ footer = """
 
     <div class="footer">
         <p><strong>Project by Freda</strong> | 
-        <a href="https://github.com/your-github-repo-link" target="_blank">See my GitHub repo</a> |
-        <a href="https://linkedin.com/your-profile" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Freddie20/WeatherProject.git" target="_blank">See my GitHub repo</a> |
+        <a href="https://hashnode.com/@fredaVictor" target="_blank">Blog</a>
         </p>
         <p>© 2024 Freda's Weather Dashboard</p>
     </div>
