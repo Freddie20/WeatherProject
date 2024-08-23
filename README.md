@@ -1,7 +1,7 @@
 # WeatherProject
 # 🌤️ Ibadan, Nigeria Weather Forecast Dashboard
 
-![Weather Dashboard](https://hashnode.com/@fredaVictor)
+![Weather Dashboard](https://ibadanweather.streamlit.app/)
 
 ## 📖 Project Overview
 
@@ -40,15 +40,15 @@ This project provides a **Weather Forecast Dashboard** for **Ibadan, Nigeria**, 
 	•	Temperature Range: Area chart showing the range of daily minimum and maximum temperatures.
 	•	Weather Heatmap: Heatmap visualizing correlations between weather metrics like temperature, humidity, and wind speed.
 
-    📁 Project Structure
+```## 📁 Project Structure
 
 ├── data
-│└── transformed_weather_data.csv
-├
-├── weather_app.py   # Main Streamlit app file
+│   └── transformed_weather_data.csv
+├── weather_app.py                # Main Streamlit app file
 ├── requirements.txt              # Python dependencies
 ├── .env                          # API key configuration (not included in the repo)
-└── README.md                     # Project documentation
+└── README.md
+```
 
 🙌 Acknowledgments
 
